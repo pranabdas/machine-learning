@@ -1,0 +1,30 @@
+site_name: Machine Learning
+repo_url: https://pranabdas.github.io/
+site_description: My machine learning notes.
+site_author: Pranab Das
+
+nav:
+    - Table of Contents: index.md 
+    - Introduction: introduction.md 
+    - Nearest neighbor: nearest-neighbor.md 
+    - Linear regression: linear-regression.md 
+    - Ridge regression: ridge-regression.md 
+    - Logistic regression: logistic-regression.md 
+
+theme:
+    name: null
+    custom_dir: simplicity
+    static_templates:
+        - 404.html
+
+    include_search_page: true
+    search_index_only: false
+
+    highlightjs: true
+
+markdown_extensions:
+    - pymdownx.arithmatex
+    - attr_list
+
+extra_javascript:
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
