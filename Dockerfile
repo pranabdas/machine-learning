@@ -8,10 +8,10 @@ FROM ubuntu:focal
 # Update OS
 RUN apt update && apt upgrade -y
 
-# Install software packages 
+# Install software packages
 RUN apt install -y python3 python3-pip fonts-open-sans
 
-# Install pip packages 
+# Install pip packages
 RUN pip3 install jupyterlab \
     numpy \
     scipy \
@@ -19,6 +19,7 @@ RUN pip3 install jupyterlab \
     pandas xlrd openpyxl \
     seaborn \
     scikit-learn \
+    tensorflow \
     missingno
 
 # bashrc settings

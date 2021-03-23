@@ -1,0 +1,11 @@
+jupyterlab
+numpy
+scipy
+matplotlib
+pandas
+xlrd
+openpyxl
+seaborn
+scikit-learn
+tensorflow
+missingno
