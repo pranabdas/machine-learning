@@ -42,6 +42,10 @@ docker run -ti -p 8888:8888 -v ${PWD}:/home jupyter bash
 Once you are inside the container, you can launch jupyter notebook by entering
 `jupyter-notebook` and leave the container by typing `exit`.
 
+You can follow the examples from the [notes](
+https://pranabdas.github.io/machine-learning/docs/) or go through them from the
+links below.
+
 ### Notebooks:
 
 1.  [Nearest neighbor](./notebooks/01-nn-handwriting-recognition.ipynb) (Nearest

@@ -33,6 +33,11 @@ module.exports = {
           label: "About me",
           position: "left",
         },
+        {
+          href: 'https://github.com/pranabdas/machine-learning',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
