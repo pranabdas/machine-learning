@@ -74,3 +74,39 @@ links below.
 
 ### Resources:
 1.  [Book: Mathematics for Machine Learning](https://mml-book.github.io)
+
+### Development
+```console
+git clone --depth 1 https://github.com/pranabdas/machine-learning.git
+```
+
+Start docusaurus server:
+```console
+npm start
+```
+
+Build docusaurus:
+```console
+npm run build
+```
+
+Deploy documentation to GitHub pages:
+```console
+npm run gh-deploy
+```
+
+Upgrade npm packages:
+```console
+npm upgrade
+```
+**Note:** Currently (08/Apr/2021) upgrading might break katex. Latest version of
+`remark-math` (which requires `remark v13`) does not work with latest version of
+`docusaurus` (which depends on `remark v12`). As of now the supported version is
+`remark-math@3`.
+
+Pull the upstream changes and override local changes (be careful if you have
+important changes):
+```console
+git reset --hard origin/master
+git pull
+```

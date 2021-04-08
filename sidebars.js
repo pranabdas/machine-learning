@@ -11,6 +11,7 @@ module.exports = {
         "ridge-regression",
         "logistic-regression",
         "pca",
+        "svm",
         "resources",
       ],
     },

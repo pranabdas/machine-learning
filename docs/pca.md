@@ -121,7 +121,7 @@ which makes sure that the principal components are not correlated.
 ### Notebooks
 
 - [PCA Introduction](
-https://github.com/pranabdas/machine-learning/blob/master/notebooks/pca-intro.ipynb)
+https://github.com/pranabdas/machine-learning/blob/master/notebooks/pca-introduction.ipynb)
 - [Principal Component Analysis on Iris dataset](
 https://github.com/pranabdas/machine-learning/blob/master/notebooks/07-pca-iris-dataset.ipynb)
 - [Principal Component Analysis on MNIST dataset](
