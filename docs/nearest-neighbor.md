@@ -10,7 +10,7 @@ The same distance function can be extended to classifying other type of objects 
 
 Euclidean distance is a subset of broader class of $L_p$ distances:
 
-$$|d|_p = \large(\sum_i |(x_i - z_i)|^p\large)^{1/p}$$
+$$|d|_p = \big(\sum \limits_i |(x_i - z_i)|^p\big)^{1/p}$$
 
 $L_{\infty}$ is defined as: $|x-z|_{\infty} = max_i |x_i - z_i|$
 

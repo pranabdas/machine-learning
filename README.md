@@ -1,5 +1,4 @@
 # My Machine Learning Journey
-
 I am trying to learn machine learning by help of numerous resources around the
 web. In this repository, I am keeping a record for myself and sharing here in
 case any of you find it helpful. The concepts are discussed in this
@@ -7,19 +6,18 @@ case any of you find it helpful. The concepts are discussed in this
 while the steps are performed in jupyter notebooks in this repository. Clone the
 repository in your computer:
 
-```
+```console
 git clone --depth 1 https://github.com/pranabdas/machine-learning.git
 ```
 
 ### Setting up Python/Jupyter environment
-
 We will be working on [Jupyter notebooks](https://jupyter.org) and use Python
 programming to perform our tasks. The required Python packages for this tutorial
 are listed in the `requirements.txt`. If you have Python 3 and specified
 packages installed in your computer, or know how to setup, go ahead with the
 tutorials. If you have [Python3](https://www.python.org) and pip installed, you
 can install the required python packages using `requirements.txt`:
-```
+```console
 pip install --upgrade -r requirements.txt
 ```
 
@@ -28,14 +26,14 @@ https://www.docker.com) container, I have a [Dockerfile](./Dockerfile) to build
 the container image. You can go through the Dockerfile and adjust according to
 your needs. Build the image:
 
-```
+```console
 docker build -t jupyter .
 ```
 
 We can run the container in interactive mode with shared folder and port
 forwarding with the host:
 
-```
+```console
 docker run -ti -p 8888:8888 -v ${PWD}:/home jupyter bash
 ```
 
@@ -47,7 +45,6 @@ https://pranabdas.github.io/machine-learning/docs/) or go through them from the
 links below.
 
 ### Notebooks:
-
 1.  [Nearest neighbor](./notebooks/01-nn-handwriting-recognition.ipynb) (Nearest
     neighbor classification, various distance functions, K-nearest neighbors)
 2.  [K-nearest neighbors](./notebooks/02-knn-iris-dataset.ipynb)
@@ -72,12 +69,22 @@ links below.
 10. [Image recognition using TensorFlow deep learning](
     ./notebooks/10-deep-learning-tf-obj-recognition.ipynb)
 
-### Resources:
-1.  [Book: Mathematics for Machine Learning](https://mml-book.github.io)
-
 ### Development
 ```console
 git clone --depth 1 https://github.com/pranabdas/machine-learning.git
+```
+
+Pull upstream changes when you have no local changes:
+```console
+git pull
+```
+
+Pull the upstream changes and override local changes (be careful if you have
+important changes, in that case please make a new branch/commit and merge):
+```console
+git fetch
+git reset --hard origin/master
+git pull
 ```
 
 Start docusaurus server:
@@ -103,10 +110,3 @@ npm upgrade
 `remark-math` (which requires `remark v13`) does not work with latest version of
 `docusaurus` (which depends on `remark v12`). As of now the supported version is
 `remark-math@3`.
-
-Pull the upstream changes and override local changes (be careful if you have
-important changes):
-```console
-git reset --hard origin/master
-git pull
-```

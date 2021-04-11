@@ -5,6 +5,7 @@ module.exports = {
       label: "Machine Learning",
       items: [
         "introduction",
+        "setup",
         "basics",
         "nearest-neighbor",
         "linear-regression",
