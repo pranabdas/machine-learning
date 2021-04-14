@@ -27,7 +27,6 @@ plt.scatter(sepal_length[iris.target == 0], petal_length[iris.target == 0])
 plt.scatter(sepal_length[iris.target == 1], petal_length[iris.target == 1])
 plt.xlabel("Sepal length (mm)")
 plt.ylabel("Petal length (mm)")
-
 plt.show()
 ```
 
@@ -82,7 +81,10 @@ from sklearn.linear_model import Perceptron
 model = Perceptron(random_state=np.random.randint(100))
 
 # choose the data only for category 0 and 1 (i.e., < 2)
-data_copy = np.reshape(data[np.tile(np.array([iris.target < 2]).transpose(), (1, 4))], (-1, 4))
+# here tile creates 4 columns out of single boolean column
+# later reshape is necessary as it returns a one dimensional array
+data_copy = np.reshape(data[np.tile(np.array([iris.target < 2]).transpose(), \
+            (1, 4))], (-1, 4))
 
 # choose only sepal length and petal length cols
 X = np.array([data_copy[:, 0], data_copy[:, 2]]).T

@@ -1,8 +1,8 @@
 ---
-title: Basics
+title: Basic Probability and Statistics
 ---
 ### Expectation value
-The expectation value of a function $g : \R \to \R$ of a univariate continuos
+The expectation value of a function $g : \R \to \R$ of a univariate continuous
 random variable $X \sim p(x)$ is given by
 
 $$\mathrm{E}_{\mathrm{X}}[g(x)] = \int_{\Chi} g(x) p(x) dx$$
@@ -55,9 +55,15 @@ can have zero covariance.
 
 ### Bayes' rule
 
-$$P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{P(A) P(B|A)}{P(B)}$$
+Definition of conditional probability:
+
+$P(A|B) = \frac{P(A \cap B)}{P(B)}$, if $P(B) \neq 0$
+
+$P(A|B)$ is probability of event $A$ given that event $B$ is true/occurring.
+
+$$P(A|B) = \frac{P(A) P(B|A)}{P(B)}$$
 
 ### Resources
 
-- Probability and statistics: [https://projects.iq.harvard.edu/stat110](
-https://projects.iq.harvard.edu/stat110)
+- Probability and statistics: <https://projects.iq.harvard.edu/stat110>
+- Bayes' rule Wikipedia: <https://en.m.wikipedia.org/wiki/Bayes%27_theorem>

@@ -34,15 +34,17 @@ module.exports = {
           position: "left",
         },
         {
-          href: 'https://github.com/pranabdas/machine-learning',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/pranabdas/machine-learning",
+          position: "right",
+          className: "header-github-link",
+          "aria-label": "GitHub repository",
         },
       ],
     },
     footer: {
       style: "dark",
-      copyright: `Copyright © ${new Date().getFullYear()} Pranab Das. All rights reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Pranab Das. All rights
+      reserved.`,
     },
   },
   presets: [
