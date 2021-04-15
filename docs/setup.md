@@ -21,7 +21,7 @@ If python 3 is installed, it will print the version number, otherwise you will
 see some sort of error.
 
 If you use Windows, you can go to <https://www.python.org>, download and
-install.
+install latest version of Python 3.
 
 ### Installing git
 Git is preinstalled in macOS. On Ubuntu/Debian:
@@ -29,10 +29,11 @@ Git is preinstalled in macOS. On Ubuntu/Debian:
 sudo apt install git
 ```
 
-On Windows go to <https://git-scm.com>, download and install git.
+On Windows go to <https://git-scm.com>, download and install git (optionally,
+you can choose to install Git Bash, a UNIX like terminal for Windows).
 
-Once you have git, you can open a terminal (on Windows command prompt, git bash,
-or powershell) and clone my repository:
+Once you have git, you can open a terminal (on Windows Command prompt, Git bash,
+or Powershell) and clone my repository:
 ```console
 git clone --depth 1 https://github.com/pranabdas/machine-learning
 ```
@@ -48,7 +49,7 @@ pip install --upgrade -r requirements.txt
 Now we are ready to launch Jupyter notebook by typing `jupyter-notebook` in the
 terminal. Navigate to `notebooks` and you can open my notebooks.
 
-### Running python and jupyter on Docker container
+### Running python and jupyter in Docker container
 If you prefer running python and jupyter notebook inside a [Docker](
 https://www.docker.com) container, I have a [Dockerfile](
 https://github.com/pranabdas/machine-learning/blob/master/Dockerfile) to build
@@ -75,17 +76,16 @@ git pull
 ```
 
 Pull the upstream changes and override local changes (be careful if you have
-important changes, in that case please make a new branch/commit and merge):
+important changes, in that case please make a new branch/commit/merge):
 ```console
 git fetch
 git reset --hard origin/master
-git pull
 ```
 
-### Development of documentation part
-This documentation is created using [docusaurus](https://docusaurus.io/)
+### Documentation
+This documentation is created using [docusaurus](https://docusaurus.io/).
 
-Install `npm` packages:
+Install required `npm` packages:
 ```console
 npm install
 ```

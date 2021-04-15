@@ -24,17 +24,16 @@ $$\Rightarrow \sum_i^n 2 (y_i - (w x_i + b)) = 0$$
 
 $$\Rightarrow \sum_i^n y_i = w \sum_i^n x_i + nb$$
 
-$$\Rightarrow b = \frac{1}{n} \sum_i^n y_i - \frac{w}{n} \sum_i^n x_i = \bar{y}
--w \bar{x}$$
+$$\Rightarrow b = \frac{1}{n} \sum_i^n y_i - \frac{w}{n} \sum_i^n x_i = \bar{y} -w \bar{x}$$
 
 We can solve for $w$ by setting $\frac{dL}{dw} = 0$:
 
 $$w = \frac{\sum_i^n (y_i - \bar{y})(x_i - \bar{x})}{\sum_i^n (x_i - \bar{x})^2}$$
 
-The above method can be extended for more than one predictor variable. In that case,
+The above method can be extended for more than one predictor variable. In that
+case,
 
-$$\hat{y} = w^{(1)} x^{(1)} + w^{(2)} x^{(2)} + w^{(k)} x^{(k)} + b = w \cdot x
-+ b$$
+$$\hat{y} = w^{(1)} x^{(1)} + w^{(2)} x^{(2)} + w^{(k)} x^{(k)} + b = w \cdot x + b$$
 
 We can incorporate $b$ in $w$s by assuming an extra predictor variable:
 

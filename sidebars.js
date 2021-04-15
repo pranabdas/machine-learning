@@ -15,6 +15,7 @@ module.exports = {
         "pca",
         "svm",
         "k-means",
+        "hierarchical-clustering",
         "resources",
       ],
     },

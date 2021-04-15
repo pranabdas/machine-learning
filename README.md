@@ -84,7 +84,6 @@ important changes, in that case please make a new branch/commit and merge):
 ```console
 git fetch
 git reset --hard origin/master
-git pull
 ```
 
 Start docusaurus server:

@@ -113,7 +113,7 @@ loading vector fo the first principal component.
 
 How to find the first principal component?
 
-$$arg~max_{(\phi_1)} \bigg( \frac{1}{n} \sum \limits_{i=1}^n Z_{i1}^2 \bigg)$$
+$$\arg\max\limits_{\phi_1} \bigg( \frac{1}{n} \sum \limits_{i=1}^n Z_{i1}^2 \bigg)$$
 
 We can find the subsequent principal components orthogonal to the previous ones
 which makes sure that the principal components are not correlated.
