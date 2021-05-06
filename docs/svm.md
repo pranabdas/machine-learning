@@ -1,5 +1,6 @@
 ---
-title: Support Vector Machine
+title: Support Vector Machines
+sidebar_label: SVM
 ---
 
 Support Vector Machine (SVM) is a technique used for binary classification. Let
@@ -37,7 +38,9 @@ dimensional plane) that separates two categorical data. On an $n$-dimensional
 dataset, we will have a $(n-1)$ dimensional hyperplane separating the two
 categories.
 
-$$l : b + w_1 x_1 + w_2 x_2 + \dots + w_{n-1} x_{n-1} = 0$$
+$$
+l : b + w_1 x_1 + w_2 x_2 + \dots + w_{n-1} x_{n-1} = 0
+$$
 
 where $w_1^2 + w_2^2 + \dots + w_{n-1}^2 \neq 0$
 
@@ -61,9 +64,13 @@ $w$ and $b$, then we go through our data sets and calculate $y(w \cdot x + b) >
 are wrong, we change $w$ and $b$ along the negative gradient (Stochastic
 Gradient Descent) by following amount:
 
-$$w \rightarrow w  + \eta yx$$
+$$
+w \rightarrow w  + \eta yx
+$$
 
-$$b \rightarrow b + \eta y$$
+$$
+b \rightarrow b + \eta y
+$$
 
 where $\eta$ is the step size (learning rate), we could even consider it equal
 to 1 for simplicity.

@@ -2,7 +2,7 @@ module.exports = {
   docs: [
     {
       type: "category",
-      label: "Machine Learning",
+      label: "Docs",
       items: [
         "introduction",
         "setup",
@@ -16,6 +16,8 @@ module.exports = {
         "svm",
         "k-means",
         "hierarchical-clustering",
+        "random-forrest",
+        "boosting",
         "resources",
       ],
     },

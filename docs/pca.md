@@ -1,5 +1,6 @@
 ---
 title: Principal Component Analysis
+sidebar_label: PCA
 ---
 Principal Component Analysis (PCA) is a technique to reduce the dimensionality
 of a dataset. It helps us to simply a given problem with the loss of minimum
@@ -106,14 +107,18 @@ the **loading vector of the first principal component**.
 
 **A score vector of the first PC** is a column vector $Z_1$ of the form
 
-$$Z_1 = \begin{pmatrix} Z_{11} \\ Z_{12} \\ \vdots \\ Z_{1n} \end{pmatrix}$$
+$$
+Z_1 = \begin{pmatrix} Z_{11} \\ Z_{12} \\ \vdots \\ Z_{1n} \end{pmatrix}
+$$
 
 consisting of the projections of the centered input data coordinates onto the
 loading vector fo the first principal component.
 
 How to find the first principal component?
 
-$$\arg\max\limits_{\phi_1} \bigg( \frac{1}{n} \sum \limits_{i=1}^n Z_{i1}^2 \bigg)$$
+$$
+\arg\max\limits_{\phi_1} \bigg( \frac{1}{n} \sum \limits_{i=1}^n Z_{i1}^2 \bigg)
+$$
 
 We can find the subsequent principal components orthogonal to the previous ones
 which makes sure that the principal components are not correlated.

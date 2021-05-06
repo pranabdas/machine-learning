@@ -1,10 +1,9 @@
 # My Machine Learning Journey
-I am trying to learn machine learning by help of numerous resources around the
-web. In this repository, I am keeping a record for myself and sharing here in
-case any of you find it helpful. The concepts are discussed in this
-[documentation page](https://pranabdas.github.io/machine-learning/docs/),
-while the steps are performed in jupyter notebooks in this repository. Clone the
-repository in your computer:
+I am exploring machine learning by help of numerous resources around the web. In
+this repository, I am keeping a record for myself and sharing here in case any
+of you find it helpful. The concepts are discussed in this [documentation page](
+https://pranabdas.github.io/machine-learning/), while the steps are performed in
+jupyter notebooks in this repository. Clone the repository in your computer:
 
 ```console
 git clone --depth 1 https://github.com/pranabdas/machine-learning.git
@@ -38,7 +37,7 @@ docker run -ti -p 8888:8888 -v ${PWD}:/home jupyter bash
 ```
 
 Once you are inside the container, you can launch jupyter notebook by entering
-`jupyter-notebook` and leave the container by typing `exit`.
+`jupyter-lab` and leave the container by typing `exit`.
 
 You can follow the examples from the [notes](
 https://pranabdas.github.io/machine-learning/docs/) or go through them from the
@@ -69,7 +68,7 @@ links below.
 10. [Image recognition using TensorFlow deep learning](
     ./notebooks/10-deep-learning-tf-obj-recognition.ipynb)
 
-### Development
+### Development of documentation
 ```console
 git clone --depth 1 https://github.com/pranabdas/machine-learning.git
 ```

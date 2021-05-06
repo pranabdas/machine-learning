@@ -19,9 +19,11 @@ functions that are used in machine learning depending on the problem.
 
 Euclidean distance is a subset of broader class of $L_p$ distances:
 
-$$|d|_p = \big(\sum \limits_i |(x_i - z_i)|^p\big)^{1/p}$$
+$$
+|d|_p = \big(\sum \limits_i |(x_i - z_i)|^p\big)^{1/p}
+$$
 
-$L_{\infty}$ is defined as: $|x-z|_{\infty} = max_i |x_i - z_i|$
+$L_{\infty}$ is defined as: $$|x-z|_{\infty} = max_i |x_i - z_i|$$
 
 
 ### K-Nearest Neighbors (KNN)
@@ -34,3 +36,9 @@ Euclidean, Hamming, Manhattan, Minkowski etc.
 KNN performs better with a low number of features. We need to perform principal
 component analysis or feature selection before applying KNN. Increase in
 dimension requires exponential increase in data points.
+
+### Notebooks
+- [Nearest neighbor on handwritten digit recognition](
+https://github.com/pranabdas/machine-learning/blob/master/notebooks/01-nn-handwriting-recognition.ipynb)
+- [K-nearest neighbors on Iris dataset](
+https://github.com/pranabdas/machine-learning/blob/master/notebooks/02-knn-iris-dataset.ipynb)

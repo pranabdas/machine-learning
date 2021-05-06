@@ -22,9 +22,12 @@ RUN pip3 install jupyterlab \
     tensorflow \
     missingno
 
-# bashrc settings
-RUN echo 'alias jupyter-notebook=\
-"jupyter-notebook --allow-root --no-browser --ip 0.0.0.0"' >> $HOME/.bashrc
+# jupyterlab settings
+RUN mkdir /etc/jupyter && \
+    (echo "c.ServerApp.ip = '0.0.0.0'" && \
+    echo "c.ServerApp.allow_root = True" && \
+    echo "c.ServerApp.open_browser = False") \
+        >> /etc/jupyter/jupyter_server_config.py
 
 # matplotlib customizations
 RUN mkdir -p /root/.config/matplotlib \

@@ -20,7 +20,9 @@ points are merged)? In case of **single linkage**, the distance between two
 clusters are defined as the distance between two closest points in those two
 clusters:
 
-$$dist(C, C') = \min\limits_{x\in C, x'\in C'} ||x - x'||$$
+$$
+dist(C, C') = \min\limits_{x\in C, x'\in C'} ||x - x'||
+$$
 
 There are several flavors of linkage methods with varying definition for the
 distance functions.
@@ -29,7 +31,9 @@ distance functions.
 In this case, the distance between two cluster is the distance between two
 furthest points in those two clusters:
 
-$$dist(C, C') = \max\limits_{x\in C, x'\in C'} ||x - x'||$$
+$$
+dist(C, C') = \max\limits_{x\in C, x'\in C'} ||x - x'||
+$$
 
 ### Average linkage
 Instead of considering the distance between two closest or furthest pairs, in
@@ -38,15 +42,22 @@ taken. There are several different ways the average can be defined.
 
 Distance between cluster centers:
 
-$$dist(C, C') = ||\min(C) - \min(C')||$$
+$$
+dist(C, C') = ||\min(C) - \min(C')||
+$$
 
 Average pairwise distance between points in two clusters:
 
-$$dist(C, C') = \frac{1}{|C|\cdot|C'|}\sum\limits_{x\in C}\sum\limits_{x'\in C'}||x - x'||$$
+$$
+dist(C, C') = \frac{1}{|C|\cdot|C'|}\sum\limits_{x\in C}
+\sum\limits_{x'\in C'}||x - x'||
+$$
 
 Ward's method: increase k-means cost from merging the clusters:
 
-$$dist(C, C') = \frac{|C|\cdot|C'|}{|C| + |C'|}||\min(C) - \min(C')||^2$$
+$$
+dist(C, C') = \frac{|C|\cdot|C'|}{|C| + |C'|}||\min(C) - \min(C')||^2
+$$
 
 ### Notebooks
 - [Hierarchical clustering: animals with features and names](
