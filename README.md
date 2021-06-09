@@ -78,6 +78,13 @@ Pull upstream changes when you have no local changes:
 git pull
 ```
 
+If you have local changes that you want to preserve:
+```console
+git stash
+git pull
+git stash apply
+```
+
 Pull the upstream changes and override local changes (be careful if you have
 important changes, in that case please make a new branch/commit and merge):
 ```console

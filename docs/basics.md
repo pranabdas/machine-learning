@@ -25,13 +25,22 @@ $$
 {X_D}}[g(x_D)]\end{bmatrix} \in \R^D
 $$
 
+### Mean
+
+$\bar{x} = \frac{1}{N}\sum \limits_i x_i$
+
 ### Variance
-Expectation value of $(x_i - \bar{x})^2$
+
+$Variance = \frac{1}{N}(x_i - \bar{x})^2$
+
+Also see [Bessel's correction](https://en.wikipedia.org/wiki/Bessel%27s_correction).
 
 ### Standard deviation
-$$
-\sigma = \sqrt{Variance}
-$$
+$\sigma = \sqrt{Variance}$
+
+### z-score
+
+$z$-score $(x_i) = (x_i - \bar{x})/\sigma$
 
 ### Correlation
 
@@ -72,7 +81,9 @@ $$
 P(A|B) = \frac{P(A) P(B|A)}{P(B)}
 $$
 
+
 ### Resources
 
 - Probability and statistics: <https://projects.iq.harvard.edu/stat110>
+- Standard deviation Wikipedia : <https://en.wikipedia.org/wiki/Standard_deviation>
 - Bayes' rule Wikipedia: <https://en.m.wikipedia.org/wiki/Bayes%27_theorem>

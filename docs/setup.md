@@ -7,7 +7,7 @@ language.
 
 ### Installing Python
 If you use macOS (Big Sur, 11), you should have already Python 3 installed. If
-you use Ubuntu/Debian, you can install by:
+you use Ubuntu/ Debian, you can install by:
 ```bash
 sudo apt install python3 python3-pip
 ```
@@ -75,6 +75,13 @@ In future, pull upstream changes when you have no local changes:
 git pull
 ```
 
+If you have local changes that you want to preserve:
+```bash
+git stash
+git pull
+git stash apply
+```
+
 Pull the upstream changes and override local changes (be careful if you have
 important changes, in that case please make a new branch/commit/merge):
 ```bash
@@ -82,34 +89,3 @@ git fetch
 git reset --hard origin/master
 ```
 
-### Documentation
-This documentation is created using [docusaurus](https://docusaurus.io/).
-
-Install required `npm` packages:
-```bash
-npm install
-```
-
-Start docusaurus server:
-```bash
-npm start
-```
-
-Build docusaurus:
-```bash
-npm run build
-```
-
-Deploy documentation to GitHub pages:
-```bash
-npm run gh-deploy
-```
-
-Upgrade npm packages:
-```bash
-npm upgrade
-```
-**Note:** Currently (08/Apr/2021) upgrading might break katex. Latest version of
-`remark-math` (which requires `remark v13`) does not work with latest version of
-`docusaurus` (which depends on `remark v12`). As of now the supported version is
-`remark-math@3`.
