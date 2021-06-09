@@ -47,7 +47,7 @@ plt.ylim(-20, 20)
 plt.show()
 ```
 
-![pca](../static/img/pca.png)
+![pca](/img/pca.png)
 
 
 ### Centering of data
@@ -95,7 +95,7 @@ plt.xlabel("Sepal length (mm)")
 plt.show()
 ```
 
-![data-centering](../static/img/data-centering.png)
+![data-centering](/img/data-centering.png)
 
 ### First Principal Component
 A straight line, which is passing through the origin and the projections of the

@@ -19,6 +19,7 @@ module.exports = {
         "random-forrest",
         "boosting",
         "resources",
+        "license",
       ],
     },
   ],

@@ -13,3 +13,5 @@ title: Resources
 science](https://www.nature.com/articles/s41524-019-0221-0)
 - [Machine Learning Energies of 2 Million Elpasolite Crystals](
 https://doi.org/10.1103/PhysRevLett.117.135502)
+- [From DFT to machine learning: recent approaches to materials science–a
+review](https://doi.org/10.1088/2515-7639/ab084b)

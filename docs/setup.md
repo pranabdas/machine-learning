@@ -7,7 +7,7 @@ language.
 
 ### Installing Python
 If you use macOS (Big Sur, 11), you should have already Python 3 installed. If
-you use Ubuntu/Debian, you can install by:
+you use Ubuntu/ Debian, you can install by:
 ```bash
 sudo apt install python3 python3-pip
 ```
@@ -73,6 +73,13 @@ Once you are inside the container, you can launch jupyter notebook by entering
 In future, pull upstream changes when you have no local changes:
 ```bash
 git pull
+```
+
+If you have local changes that you want to preserve:
+```bash
+git stash
+git pull
+git stash apply
 ```
 
 Pull the upstream changes and override local changes (be careful if you have
