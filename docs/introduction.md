@@ -36,3 +36,23 @@ optimal solution for a dataset in order to maximize a reward.
 4. Parameter and Model selection
 5. Training
 6. Evaluation
+
+### Machine learning algorithms
++ Supervised learning:
+    - Decision trees
+    - Naive Bayes
+    - Least squares regression
+    - Logistic regression
+    - Neural Networks
+    - Support Vector Machines
+    - Ensemble methods
++ Unsupervised learning:
+    - Clustering
+    - Principal Component Analysis
+    - Singular Value Decomposition
+    - Independent Component Analysis
++ Reinforcement learning:
+    - Q Learning
+    - T Learning
+    - Adversarial Learning
+    - Genetic Algorithms

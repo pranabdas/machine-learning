@@ -1,4 +1,9 @@
-# My Machine Learning Journey
+<h1 align="center">My Machine Learning Journey</h1>
+
+<p align="center">
+  <a href="https://github.com/pranabdas/machine-learning/actions/workflows/deploy-gh-pages.yml"><img src="https://github.com/pranabdas/machine-learning/actions/workflows/deploy-gh-pages.yml/badge.svg" alt="Deploy gh-pages status"></a>
+</p>
+
 I am exploring machine learning by help of numerous resources around the web. In
 this repository, I am keeping a record for myself and sharing here in case any
 of you find it helpful. The concepts are discussed in this [documentation page](
