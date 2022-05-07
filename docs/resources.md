@@ -9,6 +9,7 @@ title: Resources
 - Machine learning course by Professor Sanjoy Dasgupta (on edX)
 - [Kaggle notebooks and datasets](https://www.kaggle.com/code)
 - [AWS Open datasets](https://registry.opendata.aws)
+- <https://zachcharles.com/files/thesis.pdf>
 
 ### Machine learning in materials science
 - [Recent advances and applications of machine learning in solid-state materials
@@ -17,3 +18,7 @@ science](https://www.nature.com/articles/s41524-019-0221-0)
 https://doi.org/10.1103/PhysRevLett.117.135502)
 - [From DFT to machine learning: recent approaches to materials science–a
 review](https://doi.org/10.1088/2515-7639/ab084b)
+
+### Federated learning
+- [Introduction to federated learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html)
+- <https://github.com/google-research/federated>

@@ -2,6 +2,7 @@
 title: Introduction to machine learning
 sidebar_label: Introduction
 slug: /
+keywords: ["machine learning", "data science", "generative model", "linear regression", "logistic regression", "nearest neighbor", "ridge regression", "optimization", "k-means", "hierarchical clustering", "support vector machines", "principal component analysis", "random forrest", "boosting"]
 ---
 
 There are certain type of problems we face in everyday life that cannot be
@@ -56,3 +57,15 @@ optimal solution for a dataset in order to maximize a reward.
     - T Learning
     - Adversarial Learning
     - Genetic Algorithms
+
+:::note Question?
+
+Today data science is widely utilized by technology companies to deliver
+advertisement recommendations, other recommendation systems like news feed,
+songs, videos, shopping; supply and demand analysis, speech recognition/ natural
+language processing, lifestyle improvements including medical applications,
+recognize pattern to detect frauds etc. Most of these applications requires
+extremely large and complex datasets. Are there applications where small
+datasets from our day to day life can be useful in a practical way?
+
+:::

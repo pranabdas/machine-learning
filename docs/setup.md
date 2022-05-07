@@ -1,5 +1,6 @@
 ---
-title: Setup
+title: Computing setup
+keywords: ["jupyter notebook", "python data analysis"]
 ---
 
 We will run our code in Jupyter notebook. We will use Python 3 programming

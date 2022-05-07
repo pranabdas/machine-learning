@@ -2,7 +2,8 @@ module.exports = {
   docs: [
     "introduction",
     "setup",
-    "basics",
+    "probability-statistics",
+    "optimization",
     "generative-model",
     "nearest-neighbor",
     "linear-regression",

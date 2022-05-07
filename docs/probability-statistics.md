@@ -1,6 +1,6 @@
 ---
 title: Basic Probability and Statistics
-sidebar_label: Basics
+sidebar_label: Probability and Statistics
 ---
 ### Expectation value
 The expectation value of a function $g : \R \to \R$ of a univariate continuous
