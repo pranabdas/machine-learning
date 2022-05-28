@@ -72,5 +72,5 @@ Scaling of data is not important when we have multiple variable in case of
 linear regression.
 
 ### Notebooks
-- [Linear regression on carprice dataset](
+- [Linear regression on car price dataset](
 https://github.com/pranabdas/machine-learning/blob/master/notebooks/03-linear-regression.ipynb)

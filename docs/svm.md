@@ -31,7 +31,10 @@ plt.ylabel("Petal length (mm)")
 plt.show()
 ```
 
-![svm](/img/svm.png)
+<picture>
+  <source type="image/webp" srcset={require("/img/svm.webp").default} />
+  <img src={require("/img/svm.png").default} alt="svm" />
+</picture>
 
 The question is: how can we draw a boundary (here a straight line in two
 dimensional plane) that separates two categorical data. On an $n$-dimensional
@@ -56,7 +59,10 @@ possibility could be, we calculate $w \cdot x + b$, if we are right (i.e.,
 predicts the correct label or $y(w \cdot x + b) > 0$), there is no loss. If we
 are wrong, we assign loss = $w \cdot x + b$.
 
-![perceptron-loss-function](/img/perceptron-loss.png)
+<picture>
+  <source type="image/webp" srcset={require("/img/perceptron-loss.webp").default} />
+  <img src={require("/img/perceptron-loss.png").default} alt="perceptron-loss" />
+</picture>
 
 Our loss function is convex. We reach for solution by starting with an arbitrary
 $w$ and $b$, then we go through our data sets and calculate $y(w \cdot x + b) >
@@ -113,7 +119,10 @@ plt.ylabel("Petal length (mm)")
 plt.show()
 ```
 
-![perceptron](/img/perceptron.png)
+<picture>
+  <source type="image/webp" srcset={require("/img/perceptron.webp").default} />
+  <img src={require("/img/perceptron.png").default} alt="perceptron" />
+</picture>
 
 ### Hard margin
 
@@ -153,7 +162,10 @@ plt.ylabel("Petal length (mm)")
 plt.show()
 ```
 
-![svm](/img/svm-2.png)
+<picture>
+  <source type="image/webp" srcset={require("/img/svm-2.webp").default} />
+  <img src={require("/img/svm-2.png").default} alt="svm-2" />
+</picture>
 
 ### Soft margin
 What happens when the data is not linearly separable? Or even we might want to
