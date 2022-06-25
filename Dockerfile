@@ -2,8 +2,8 @@
 # Run docker     : docker run -ti -p 8888:8888 -v ${pwd}:/home jupyter bash
 # Launch jupyter : jupyter-notebook
 
-# Start from Ubuntu 20.04 LTS
-FROM ubuntu:focal
+# Start from Ubuntu 22.04 LTS
+FROM ubuntu:jammy
 
 # Update OS
 RUN apt update && apt upgrade -y
@@ -16,6 +16,7 @@ RUN pip3 install jupyterlab \
     numpy \
     scipy \
     matplotlib \
+    seaborn \
     pandas xlrd openpyxl \
     seaborn \
     scikit-learn \

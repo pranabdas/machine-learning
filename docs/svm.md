@@ -32,7 +32,7 @@ plt.show()
 ```
 
 <picture>
-  <source type="image/webp" srcset={require("/img/svm.webp").default} />
+  <source type="image/webp" srcSet={require("/img/svm.webp").default} />
   <img src={require("/img/svm.png").default} alt="svm" />
 </picture>
 
@@ -60,7 +60,7 @@ predicts the correct label or $y(w \cdot x + b) > 0$), there is no loss. If we
 are wrong, we assign loss = $w \cdot x + b$.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/perceptron-loss.webp").default} />
+  <source type="image/webp" srcSet={require("/img/perceptron-loss.webp").default} />
   <img src={require("/img/perceptron-loss.png").default} alt="perceptron-loss" />
 </picture>
 
@@ -120,7 +120,7 @@ plt.show()
 ```
 
 <picture>
-  <source type="image/webp" srcset={require("/img/perceptron.webp").default} />
+  <source type="image/webp" srcSet={require("/img/perceptron.webp").default} />
   <img src={require("/img/perceptron.png").default} alt="perceptron" />
 </picture>
 
@@ -163,7 +163,7 @@ plt.show()
 ```
 
 <picture>
-  <source type="image/webp" srcset={require("/img/svm-2.webp").default} />
+  <source type="image/webp" srcSet={require("/img/svm-2.webp").default} />
   <img src={require("/img/svm-2.png").default} alt="svm-2" />
 </picture>
 

@@ -48,7 +48,7 @@ plt.show()
 ```
 
 <picture>
-  <source type="image/webp" srcset={require("/img/pca.webp").default} />
+  <source type="image/webp" srcSet={require("/img/pca.webp").default} />
   <img src={require("/img/pca.png").default} alt="pca" />
 </picture>
 
@@ -99,7 +99,7 @@ plt.show()
 ```
 
 <picture>
-  <source type="image/webp" srcset={require("/img/data-centering.webp").default} />
+  <source type="image/webp" srcSet={require("/img/data-centering.webp").default} />
   <img src={require("/img/data-centering.png").default} alt="data-centering" />
 </picture>
 

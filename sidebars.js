@@ -3,6 +3,7 @@ module.exports = {
     "introduction",
     "setup",
     "probability-statistics",
+    "basic-stat",
     "optimization",
     "generative-model",
     "nearest-neighbor",
