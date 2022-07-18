@@ -109,6 +109,13 @@ shaped (normal) distribution, centered around 68 inches, has range from 62 to
 75. The distribution is unimodal (it has only peak. If there are two peaks, we
 call it bimodal).
 
+In case of univariate data, we can also plot a smooth distribution curve (kernel
+density plot) along with the histogram by setting the `kde` parameter to `True`.
+
+```py
+sns.histplot(data, x="Height(Inches)", bins=20, kde=True)
+```
+
 **Main aspects of histogram plot:**
 - **Shape:** overall appearance of histogram; could be symmetric, bell shaped,
 left skewed or right skewed, etc.
@@ -142,6 +149,11 @@ plt.show()
 ```
 
 ![violin-plot](/img/stat-violin-plot.png)
+
+### Q-Q plot
+Quantile-quantile plot.
+
+## Multivariate dataset
 
 ## Notebooks
 - [Basic statistical analysis](

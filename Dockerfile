@@ -17,6 +17,7 @@ RUN pip3 install jupyterlab \
     scipy \
     matplotlib \
     seaborn \
+    statsmodels \
     pandas xlrd openpyxl \
     seaborn \
     scikit-learn \
@@ -31,28 +32,30 @@ RUN mkdir /etc/jupyter && \
         >> /etc/jupyter/jupyter_server_config.py
 
 # matplotlib customizations
-RUN mkdir -p /root/.config/matplotlib \
- && touch /root/.config/matplotlib/matplotlibrc \
- && echo 'font.family       : sans-serif' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'font.style        : normal' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'font.weight       : regular' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'font.sans-serif   : Open Sans, DejaVu Sans' >> /root/.config/matplotlib/matplotlibrc\
- && echo 'axes.linewidth    : 0.8' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'axes.titlesize    : 16' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'axes.labelsize    : 16' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'xtick.major.size  : 8' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'xtick.minor.size  : 4' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'xtick.major.width : 0.8' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'xtick.minor.width : 0.6' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'xtick.labelsize   : 16' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'xtick.direction   : in' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'ytick.major.size  : 8' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'ytick.minor.size  : 4' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'ytick.major.width : 0.8' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'ytick.minor.width : 0.6' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'ytick.labelsize   : 16' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'ytick.direction   : in' >> /root/.config/matplotlib/matplotlibrc \
- && echo 'image.origin      : lower' >> /root/.config/matplotlib/matplotlibrc
+RUN mkdir -p ~/Desktop/matplotlib/.config/matplotlib \
+    && touch ~/Desktop/matplotlib/.config/matplotlib/matplotlibrc \
+    && cat >> ~/Desktop/matplotlib/.config/matplotlib/matplotlibrc << EOF
+font.family       : sans-serif
+font.style        : normal
+font.weight       : regular
+font.sans-serif   : Open Sans, DejaVu Sans
+axes.linewidth    : 0.8
+axes.titlesize    : 16
+axes.labelsize    : 16
+xtick.major.size  : 8
+xtick.minor.size  : 4
+xtick.major.width : 0.8
+xtick.minor.width : 0.6
+xtick.labelsize   : 16
+xtick.direction   : in
+ytick.major.size  : 8
+ytick.minor.size  : 4
+ytick.major.width : 0.8
+ytick.minor.width : 0.6
+ytick.labelsize   : 16
+ytick.direction   : in
+image.origin      : lower
+EOF
 
 # leave in `/home` which we can map with the host
 WORKDIR /home
