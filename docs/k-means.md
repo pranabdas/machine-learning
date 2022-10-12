@@ -20,7 +20,7 @@ We have input data: $x_1, x_2, \dots, x_n \in \R^D$. We have to find $k$ cluster
 centers at positions $\mu_1, \mu_2, \dots, \mu_k \in \R^D$ for which:
 
 $$
-cost(\mu_1, \mu_2, \dots, \mu_k) = \sum\limits_{i=1}^n
+\text{cost}(\mu_1, \mu_2, \dots, \mu_k) = \sum\limits_{i=1}^n
 \min\limits_j||x_i -\mu_i||^2
 $$
 

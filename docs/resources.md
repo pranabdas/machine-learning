@@ -5,11 +5,14 @@ title: Resources
 - <https://github.com/microsoft/Data-Science-For-Beginners>
 - <https://github.com/microsoft/ML-For-Beginners>
 - <https://jakevdp.github.io/PythonDataScienceHandbook/>
-- [UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)
 - Machine learning course by Professor Sanjoy Dasgupta (on edX)
+- <https://zachcharles.com/files/thesis.pdf>
+
+## Datasets
+- [UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)
+- [Eurostat datasets](https://ec.europa.eu/eurostat/data/database)
 - [Kaggle notebooks and datasets](https://www.kaggle.com/code)
 - [AWS Open datasets](https://registry.opendata.aws)
-- <https://zachcharles.com/files/thesis.pdf>
 
 ### Machine learning in materials science
 - [Recent advances and applications of machine learning in solid-state materials

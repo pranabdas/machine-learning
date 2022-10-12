@@ -90,7 +90,7 @@ the data is left skewed, the average will lower than the median.
 #### Standard score or z-score
 Standard score or z-score of a specific data point is given by
 $$
-z-score = \frac{value - mean}{standard~deviation}
+z\text{-score} = \frac{\text{value} - \text{mean}}{\text{standard~deviation}}
 $$
 
 ### Histogram plot

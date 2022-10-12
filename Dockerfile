@@ -32,9 +32,9 @@ RUN mkdir /etc/jupyter && \
         >> /etc/jupyter/jupyter_server_config.py
 
 # matplotlib customizations
-RUN mkdir -p ~/Desktop/matplotlib/.config/matplotlib \
-    && touch ~/Desktop/matplotlib/.config/matplotlib/matplotlibrc \
-    && cat >> ~/Desktop/matplotlib/.config/matplotlib/matplotlibrc << EOF
+RUN mkdir -p /root/.config/matplotlib \
+    && touch /root/.config/matplotlib/matplotlibrc \
+    && cat >> /root/.config/matplotlib/matplotlibrc << EOF
 font.family       : sans-serif
 font.style        : normal
 font.weight       : regular

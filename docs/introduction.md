@@ -58,14 +58,15 @@ optimal solution for a dataset in order to maximize a reward.
     - Adversarial Learning
     - Genetic Algorithms
 
-:::note Question?
+:::note Application Scope
 
-Today data science is widely utilized by technology companies to deliver
-advertisement recommendations, other recommendation systems like news feed,
-songs, videos, shopping; supply and demand analysis, speech recognition/ natural
-language processing, lifestyle improvements including medical applications,
-recognize pattern to detect frauds etc. Most of these applications requires
-extremely large and complex datasets. Are there applications where small
-datasets from our day to day life can be useful in a practical way?
+Today data science is heavily utilized by technology companies to power
+recommendation systems like advertisements, news feed, songs, videos, shopping;
+supply and demand analysis, speech recognition/ natural language processing,
+lifestyle improvements including medical applications, recognize pattern to
+detect frauds etc. Most of these applications requires extremely large and
+complex datasets. However, sometimes trained models are openly available for
+ready made usage. Beyond those, are there applications where small datasets from
+our day to day life can be useful in a practical way?
 
 :::

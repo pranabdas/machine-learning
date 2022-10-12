@@ -31,16 +31,16 @@ $\bar{x} = \frac{1}{N}\sum \limits_i x_i$
 
 ### Variance
 
-$Variance = \frac{1}{N}(x_i - \bar{x})^2$
+$\text{Variance} = \frac{1}{N}(x_i - \bar{x})^2$
 
 Also see [Bessel's correction](https://en.wikipedia.org/wiki/Bessel%27s_correction).
 
 ### Standard deviation
-$\sigma = \sqrt{Variance}$
+$\sigma = \sqrt{\text{Variance}}$
 
 ### z-score
 
-$z$-score $(x_i) = (x_i - \bar{x})/\sigma$
+$z\text{-score} (x_i) = (x_i - \bar{x})/\sigma$
 
 ### Correlation
 
@@ -136,18 +136,55 @@ $$
 \mu_1 - \mu_2 \pm t^* \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}
 $$
 
+### De Morgan's Law
+
+We can express one probability event in terms of other events, especially
+through unions, intersections and compliments. Oftentimes, one expression is
+easier to calculate than another. In this regards, De Morgans laws are very
+helpful.
+
+$(A \cup B)^c = A^c \cap B^c$
+
+$(A \cap B)^c = A^c \cup B^c$
+
+Note that analogous results hold for unions and intersection of more than two
+events.
+
+### Binomial coefficient
+
+For any nonnegative integers $k$ and $n$, the *binomial coefficient*
+$\binom{n}{k}$ (read as $n$ *choose* $k$) is the number of subsets of size $k$
+for a set of size $n$.
+
+$$
+\binom{n}{k} = \frac{n(n-1) \dots (n-k+1)}{k!} = \frac{n!}{(n-k)!k!}
+$$
+
+For $k \gt n$, we have $\binom{n}{k} = 0$.
+
+Binomial Theorem:
+
+$$
+(x + y)^n = \sum_{k=0}^n \binom{n}{k} x^k y^{n-k}
+$$
+
+**Vandermonde's identity:**
+
+$$
+\binom{m + n}{k} = \sum_{i=0}^k \binom{m}{j} \binom{n}{k-j}
+$$
+
 ### Bayes' rule
 
 Definition of conditional probability:
 
-$$P(A|B) = \frac{P(A \cap B)}{P(B)}$$, if $$P(B) \neq 0$$
+$P(A|B) = \frac{P(A \cap B)}{P(B)}$, if $P(B) \neq 0$
 
 $P(A|B)$ is probability of event $A$ given that event $B$ is true/occurring.
 
 $$
 P(A|B) = \frac{P(A) P(B|A)}{P(B)}
 $$
-
 
 ### Resources
 
