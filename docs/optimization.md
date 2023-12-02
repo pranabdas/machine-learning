@@ -111,4 +111,4 @@ f(y) \le f(x) + \langle \nabla f(x), y - x\rangle + \frac{\beta}{2}||y - x||_2^2
 $$
 
 ### Resources
-- <https://zachcharles.com/files/thesis.pdf>
+- https://zachcharles.com/files/thesis.pdf

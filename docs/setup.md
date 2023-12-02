@@ -21,7 +21,7 @@ python3 --version
 If python 3 is installed, it will print the version number, otherwise you will
 see some sort of error.
 
-If you use Windows, you can go to <https://www.python.org>, download and
+If you use Windows, you can go to https://www.python.org, download and
 install latest version of Python 3.
 
 ### Installing git
@@ -30,7 +30,7 @@ Git is preinstalled in macOS. On Ubuntu/Debian:
 sudo apt install git
 ```
 
-On Windows go to <https://git-scm.com>, download and install git (optionally,
+On Windows go to https://git-scm.com, download and install git (optionally,
 you can choose to install Git Bash, a UNIX like terminal for Windows).
 
 Once you have git, you can open a terminal (on Windows Command prompt, Git bash,

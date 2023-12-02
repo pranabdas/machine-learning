@@ -37,6 +37,6 @@ https://github.com/pranabdas/machine-learning/blob/master/notebooks/k-means-clus
 
 
 ### Resources
-- <https://en.wikipedia.org/wiki/K-means_clustering>
-- <https://www.analyticsvidhya.com/blog/2019/08/comprehensive-guide-k-means-clustering/>
-- <https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1>
+- https://en.wikipedia.org/wiki/K-means_clustering
+- https://www.analyticsvidhya.com/blog/2019/08/comprehensive-guide-k-means-clustering/
+- https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1

@@ -17,4 +17,4 @@ can choose other distributions suitable to our problem.
 https://github.com/pranabdas/machine-learning/blob/master/notebooks/06-naive-bayes-uci-winery-dataset.ipynb)
 
 ### Resources
-- <https://scikit-learn.org/stable/modules/naive_bayes>
+- https://scikit-learn.org/stable/modules/naive_bayes

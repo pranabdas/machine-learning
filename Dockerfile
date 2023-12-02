@@ -23,14 +23,14 @@ RUN pip3 install jupyterlab \
     scikit-learn \
     tensorflow \
     missingno
-
+#
 # jupyterlab settings
 RUN mkdir /etc/jupyter && \
     (echo "c.ServerApp.ip = '0.0.0.0'" && \
     echo "c.ServerApp.allow_root = True" && \
     echo "c.ServerApp.open_browser = False") \
         >> /etc/jupyter/jupyter_server_config.py
-
+#
 # matplotlib customizations
 RUN mkdir -p /root/.config/matplotlib \
     && touch /root/.config/matplotlib/matplotlibrc \

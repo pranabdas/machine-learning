@@ -188,7 +188,7 @@ $$
 
 ### Resources
 
-- Probability and statistics: <https://projects.iq.harvard.edu/stat110>
-- Standard deviation Wikipedia : <https://en.wikipedia.org/wiki/Standard_deviation>
+- Probability and statistics: https://projects.iq.harvard.edu/stat110
+- Standard deviation Wikipedia : https://en.wikipedia.org/wiki/Standard_deviation
 - [Seeing Theory](https://seeing-theory.brown.edu)
-- Bayes' rule Wikipedia: <https://en.m.wikipedia.org/wiki/Bayes%27_theorem>
+- Bayes' rule Wikipedia: https://en.m.wikipedia.org/wiki/Bayes%27_theorem

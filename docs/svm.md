@@ -186,6 +186,6 @@ quadratic or higher order polynomial in actual feature space).
 https://github.com/pranabdas/machine-learning/blob/master/notebooks/svm-introduction.ipynb)
 
 ### Resources
-- <https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html>
-- <https://scikit-learn.org/stable/modules/svm.html>
-- <https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html>
+- https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html
+- https://scikit-learn.org/stable/modules/svm.html
+- https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
